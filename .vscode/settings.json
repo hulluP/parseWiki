@@ -1,0 +1,16 @@
+{
+  "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+      "javascript"
+    ],
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+      "node_modules{,/**}",
+      ".vscode{,/**}"
+    ],
+    "files.exclude": {
+      "**/dist": true
+    }
+}
